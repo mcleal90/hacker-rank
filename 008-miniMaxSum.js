@@ -1,7 +1,4 @@
-arr= [1,2,3,4,5]
-
 function miniMaxSum(arr) {
-    // Write your code here
     let max=arr[0]
     let min=arr[0]
     let sum=0
@@ -20,3 +17,5 @@ function miniMaxSum(arr) {
     }
     console.log(sum-max,sum-min)
 }
+
+miniMaxSum([1,2,3,4,5])

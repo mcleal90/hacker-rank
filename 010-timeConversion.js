@@ -1,5 +1,4 @@
-function timeConversion(s) {
-    // Write your code here
+function timeConversion(s) {   
     let amPm = s.charAt(8)
     let militaryHour = ''
     
@@ -19,3 +18,5 @@ function timeConversion(s) {
     }
     return militaryHour + s.substring(2,8)
 }
+
+console.log(timeConversion('07:05:45PM'))

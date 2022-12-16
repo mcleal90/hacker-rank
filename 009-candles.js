@@ -1,5 +1,4 @@
 function birthdayCakeCandles(candles) {
-    // Write your code here
     let tall=candles[0] 
     let cont=0
     for (let i=0; i<candles.length; i++){
@@ -14,3 +13,4 @@ function birthdayCakeCandles(candles) {
     }
     return(cont)
 }
+console.log(birthdayCakeCandles([3,2,1,3]))

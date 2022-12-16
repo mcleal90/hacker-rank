@@ -1,5 +1,4 @@
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
-    // Write your code here
     let distApples = []
     let distOranges = []
     let countApples = 0
@@ -27,3 +26,4 @@ console.log(countApples)
 console.log(countOranges)
 
 }
+countApplesAndOranges(7,10,4,12,[2,3,-4],[3,-2,-4])

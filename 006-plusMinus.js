@@ -1,5 +1,4 @@
 function plusMinus(arr) {
-    // Write your code here
     let pos = 0
     let neg = 0
     let zero = 0    
@@ -18,5 +17,4 @@ function plusMinus(arr) {
     console.log ((neg/arr.length).toFixed(6))
     console.log ((zero/arr.length).toFixed(6))
 }
-
-arr = [-4, 3, -9, 0, 4, 1]
+plusMinus([-4, 3, -9, 0, 4, 1])
